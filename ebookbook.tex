@@ -1,0 +1,38 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This file is the "main" or root file for the book. It describes what packages
+% and content should be included in what order.
+
+\documentclass[pagesize=auto,bibliography=totocnumbered]{scrbook}
+
+\input{lib/packages}
+\input{lib/commands}
+
+% This line stops the insertion of extra blank pages between chapters.
+\ifdefined\HCode{\KOMAoptions{twoside=false}} \fi
+
+\begin{document}
+
+% Title and author are written down in the cover_page.tex file, and author
+% appears also as an argument to the ebook-convert command in the build.sh file.
+\input{cover_page.tex}
+
+\tableofcontents
+
+\nextpage
+\input{chapters/introduction}
+\input{chapters/lattice} 
+\input{chapters/end_to_end}
+\input{chapters/typesetting_topics}
+\input{chapters/maintenance}
+
+\nextpage
+
+% After the \backmatter command, sections will not be numbered.
+\backmatter
+
+\input{author}
+
+\bibliographystyle{apalike}
+\bibliography{bibliography.bib}
+
+\end{document}

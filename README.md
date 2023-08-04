@@ -1,2 +1,4 @@
-# theorem-you-must-know
-I have sorted out some theorem proofs related to Cryptography or computational number theory, and I think they must know, even not forget any details.
+# Theorem-You-Must-Know
+There are some theorem proofs related to Cryptography or computational number theory. I think they are important, and we shouldn't forget any details.
+# Template
+THe latex template from [link](https://www.overleaf.com/latex/templates/ebookbook/gyrynxbrdmcd)，thanks for Dominic Widdows's good job.
