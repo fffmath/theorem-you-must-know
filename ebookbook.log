@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.4)  4 AUG 2023 23:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.4)  7 AUG 2023 14:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -978,7 +978,7 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))) (/usr/local/texlive/2023/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
 \c@AlgoLine=\count295
  (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
@@ -1026,7 +1026,7 @@ Package: relsize 2013/03/29 ver 4.1
 \c@algocf=\count299
 \algocf@algoframe=\box63
 \algocf@algobox=\box64
-) (./lib/commands.tex
+)) (./lib/commands.tex
 \c@theorem=\count300
 \c@definition=\count301
 \c@lemma=\count302
@@ -1034,11 +1034,7 @@ Package: relsize 2013/03/29 ver 4.1
 \c@corollary=\count304
 )
 \c@remark=\count305
- (./ebookbook.aux
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 90.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
-File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
-))
+ (./ebookbook.aux)
 \openout1 = `ebookbook.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -1062,6 +1058,10 @@ LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 13.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 13.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
+File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
+)
 LaTeX Font Info:    ... okay on input line 13.
 Package scrbase Info: activating english \partname on input line 13.
 Package scrbase Info: activating english \chaptername on input line 13.
@@ -1157,100 +1157,60 @@ File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ]
 chapter 2.
 
-Overfull \hbox (3.96591pt too wide) in paragraph at lines 20--21
+Overfull \hbox (3.96591pt too wide) in paragraph at lines 21--22
 []\T2A/cmr/m/n/10.95 Assume $\U/msb/m/n/10.95 L$ \T2A/cmr/m/n/10.95 is a lat-tice de-fined as the set of all in-te-ger com-bi-na-tions of vec-tors $\OT1/cmr/bx/n/10.95 b[]\OML/cmm/m/it/10.95 ; [] ; \OT1/cmr/bx/n/10.95 b[] \OMS/cmsy/m/n/10.95 2
  []
 
-[7]) (./chapters/end_to_end.tex [8]
+[7] [8]) (./chapters/zkp.tex [9] [10
+
+
+]
 chapter 3.
-<images/process.png, id=124, 602.25pt x 415.5525pt>
-File: images/process.png Graphic file (type png)
-<use images/process.png>
-Package pdftex.def Info: images/process.png  used on input line 15.
-(pdftex.def)             Requested size: 418.25555pt x 288.60841pt.
-[9
-
-
-] [10 <./images/process.png>]
-Overfull \hbox (176.40202pt too wide) in paragraph at lines 74--78
-[]\T2A/cmr/m/n/10.95 If you al-ready have \T2A/cmtt/m/n/10 git \T2A/cmr/m/n/10.95 in-stalled, this will be some-thing like run-ning \T2A/cmtt/m/n/10 git clone https://github.com/dwiddows/ebookbook.git
- []
-
-[11]
-Overfull \hbox (23.02722pt too wide) in paragraph at lines 146--147
-[] \T2A/cmtt/m/n/10 ebook-convert ebookbook.html ebookbook.epub --cover images/cover.jpg --authors "YOUR
- []
-
-
-Overfull \hbox (14.37932pt too wide) in paragraph at lines 151--153
-\T2A/cmr/m/n/10.95 Hopefully by now you have an eBook. Or at least, a file called some-thing like \T2A/cmtt/m/n/10 ebookbook.epub\T2A/cmr/m/n/10.95 .
- []
-
-<images/calibre_screenshot.png, id=143, 774.895pt x 433.62pt>
-File: images/calibre_screenshot.png Graphic file (type png)
-<use images/calibre_screenshot.png>
-Package pdftex.def Info: images/calibre_screenshot.png  used on input line 165.
-(pdftex.def)             Requested size: 418.25555pt x 234.05206pt.
-<images/kindle_screenshot.png, id=145, 587.19376pt x 801.99625pt>
-File: images/kindle_screenshot.png Graphic file (type png)
-<use images/kindle_screenshot.png>
-Package pdftex.def Info: images/kindle_screenshot.png  used on input line 194.
-(pdftex.def)             Requested size: 250.95587pt x 342.75905pt.
-[12]
-Overfull \hbox (11.31993pt too wide) in paragraph at lines 206--209
-[]\T2A/cmr/m/n/10.95 The next thing you should do is change some-thing. Change the ti-tle in the \T2A/cmtt/m/n/10 cover_page.tex
- []
-
-[13 <./images/calibre_screenshot.png>] [14 <./images/kindle_screenshot.png>]) (./chapters/typesetting_topics.tex [15] [16
+) (./chapters/mpc.tex [11] [12
 
 
 ]
 chapter 4.
-[17]
-<images/sea_countries.png, id=180, 1024.82875pt x 837.1275pt>
-File: images/sea_countries.png Graphic file (type png)
-<use images/sea_countries.png>
-Package pdftex.def Info: images/sea_countries.png  used on input line 68.
-(pdftex.def)             Requested size: 418.25555pt x 341.65335pt.
-
-Overfull \hbox (81.50934pt too wide) in paragraph at lines 75--80
-[]\T2A/cmr/m/n/10.95 Note the [] com-mand, which is de-fined in the macros as [].
- []
-
-[18 <./images/sea_countries.png (PNG copy)>] [19] [20]) (./chapters/maintenance.tex [21] [22
+) (./chapters/qcomplexity.tex [13] [14
 
 
 ]
 chapter 5.
-[23]) [24] (./author.tex
+) [15] [16
+
+
+] (./author.tex
 chapter without number
-) (./ebookbook.bbl [25
+
+Overfull \hbox (22.15442pt too wide) in paragraph at lines 4--5
+\T2A/cmr/m/n/10.95 (CAS), with re-search in-ter-ests in Cryp-tog-ra-phy. My per-sonal site is https://www.fffamth.com. 
+ []
+
+) (./ebookbook.bbl [17
 
 
-
-
-] [26
+] [18
 
 
 ]
 chapter without number
-) [27] (./ebookbook.aux)
+) [19] (./ebookbook.aux)
 Package rerunfilecheck Info: File `ebookbook.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19554 strings out of 476025
- 337864 string characters out of 5790018
- 1862388 words of memory out of 5000000
- 39598 multiletter control sequences out of 15000+600000
- 538583 words of font info for 96 fonts, out of 8000000 for 9000
+ 19447 strings out of 476025
+ 336178 string characters out of 5790018
+ 1869388 words of memory out of 5000000
+ 39520 multiletter control sequences out of 15000+600000
+ 533399 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,9n,106p,10647b,652s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cbfonts/grmn1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsl1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on ebookbook.pdf (27 pages, 961441 bytes).
+ 108i,17n,106p,10647b,585s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsl1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on ebookbook.pdf (19 pages, 490445 bytes).
 PDF statistics:
- 459 PDF objects out of 1000 (max. 8388607)
- 359 compressed objects within 4 object streams
- 65 named destinations out of 1000 (max. 500000)
- 218 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 314 PDF objects out of 1000 (max. 8388607)
+ 239 compressed objects within 3 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 94 words of extra memory for PDF output out of 10000 (max. 10000000)
 

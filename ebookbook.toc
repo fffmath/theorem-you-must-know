@@ -2,29 +2,12 @@
 \contentsline {chapter}{\numberline {1}Introduction}{5}{chapter.1}%
 \contentsline {section}{\numberline {1.1}How to Use this Book}{5}{section.1.1}%
 \contentsline {chapter}{\numberline {2}Lattice Based Cryptography}{7}{chapter.2}%
-\contentsline {section}{\numberline {2.1}The two definitions of lattice are equivalent}{7}{section.2.1}%
-\contentsline {chapter}{\numberline {3}End to End: From Source to eReader}{9}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Install Dependencies}{9}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Access and Build the LaTeX\xspace Source}{11}{section.3.2}%
-\contentsline {section}{\numberline {3.3}From HTML to ePub ... or Mobi}{11}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Previewing Your Book on an eReader}{12}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Make it Your Own!}{13}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Publication}{15}{section.3.6}%
-\contentsline {chapter}{\numberline {4}Typesetting Topics}{17}{chapter.4}%
-\contentsline {section}{\numberline {4.1}References and Citations}{17}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Graphics}{17}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Tables}{19}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Equations}{19}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Different Languages}{20}{section.4.5}%
-\babel@toc {russian}{}\relax 
-\babel@toc {english}{}\relax 
-\babel@toc {greek}{}\relax 
-\babel@toc {english}{}\relax 
-\contentsline {section}{\numberline {4.6}Contents and Index}{21}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Difficulties}{21}{section.4.7}%
-\contentsline {chapter}{\numberline {5}Maintenance and Troubleshooting}{23}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Report Bugs on Github}{23}{section.5.1}%
-\contentsline {section}{\numberline {5.2}That's All For Now}{23}{section.5.2}%
-\contentsline {chapter}{\nonumberline About the Author}{25}{chapter*.2}%
-\contentsline {chapter}{\nonumberline Bibliography}{27}{chapter*.3}%
+\contentsline {section}{\numberline {2.1}Basic of lattice}{7}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}The two definitions of lattice are equivalent}{7}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Complexity of LLL-algorithm}{8}{subsection.2.1.2}%
+\contentsline {chapter}{\numberline {3}Zero-Knowledge Proof}{11}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Multi-Party Computation}{13}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Quantum Complexity}{15}{chapter.5}%
+\contentsline {chapter}{\nonumberline About the Author}{17}{chapter*.2}%
+\contentsline {chapter}{\nonumberline Bibliography}{19}{chapter*.3}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -10,14 +10,4 @@ Lamport, L. (1985).
 \newblock {\em LaTeX: A Document Preparation System}, volume 410.
 \newblock Addison-Wesley Professional; 2nd edition (June 30, 1994).
 
-\bibitem[Lode, 2019]{lode2019better}
-Lode, C. (2019).
-\newblock {\em Better Books with LaTeX: Self-Publish Your Book on Amazon and Google}.
-\newblock Clemens Lode Verlag eK.
-
-\bibitem[Witten et~al., 1999]{witten1999gigabytes}
-Witten, I.~H., Moffat, A., and Bell, T.~C. (1999).
-\newblock {\em Managing Gigabytes: Compressing and Indexing Documents and Images}.
-\newblock Morgan Kaufmann, 2 edition.
-
 \end{thebibliography}
